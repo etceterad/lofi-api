@@ -7,6 +7,9 @@ export class MixesModel extends TimeStamps {
     @prop()
     url: string;
 
+    @prop()
+    title: string;
+
     @prop({ enum: GenreEnum })
     genre: GenreEnum;
 
@@ -14,7 +17,7 @@ export class MixesModel extends TimeStamps {
     author: string;
 
     @prop()
-    duration: number;
+    duration: string;
 
     @prop()
     preview: string;

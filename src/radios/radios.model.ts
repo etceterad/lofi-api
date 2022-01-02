@@ -8,6 +8,9 @@ export class RadiosModel extends TimeStamps {
     url: string;
 
     @prop()
+    title: string;
+
+    @prop()
     genre: GenreEnum;
 
     @prop()
@@ -35,5 +38,5 @@ export class RadiosModel extends TimeStamps {
 //https://www.youtube.com/watch?v=0n0leLcHI7E
 //https://www.youtube.com/watch?v=l7TxwBhtTUY
 //https://www.youtube.com/watch?v=BbQM9UbQjFI
-//https://www.youtube.com/watch?v=my7tlu6pJAI
-//https://www.youtube.com/watch?v=7LBlqXE_uS0
+//https://www.youtube.com/watch?v=my7tlu6pJAI -
+//https://www.youtube.com/watch?v=7LBlqXE_uS0 -
